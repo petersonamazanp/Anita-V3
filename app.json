@@ -9,17 +9,17 @@
   "env": {
     "SESSION_ID": {
       "description": "Put your session ID",
-      "value": "",
+      "value":{"noiseKey":{"private":{"type":"Buffer","data":"yPNtN0i+E4JYH2vttowGykAGPe7v/MLV5d8JAizfOVU="},"public":{"type":"Buffer","data":"OhnZFqo4sBhbEAO9eBvBXkTB4HOYu7qtUACkZlHaExE="}},"pairingEphemeralKeyPair":{"private":{"type":"Buffer","data":"8PQWeDkrptlP4gGnCDNIEuK329cAUZEoCGSf5Hcq4GE="},"public":{"type":"Buffer","data":"lGv+HIUJ7tOMdivm3P/Io+CGOSWjA0MBSd3/kcFsDH0="}},"signedIdentityKey":{"private":{"type":"Buffer","data":"wLR52sYGYRYZwhr+ATVK1cQsCMiHmBamidNBxCTIY3c="},"public":{"type":"Buffer","data":"vHExR6YbM8B1F6HVcsxdjtaWNpPInH/NX+ZdsWUhCEM="}},"signedPreKey":{"keyPair":{"private":{"type":"Buffer","data":"eMR7q3V9jyGwk4F4nDKe7JFg7/Rtm5mOdJHWq48samM="},"public":{"type":"Buffer","data":"SDma7X4W8HgwPFM/on+ab5tO6XG9u100hi0CdNdEQWo="}},"signature":{"type":"Buffer","data":"rYdr1gdLEZS2tORnbB1w5fe2R6TkPNkdaDmwuxpnuYZRl/JPoZnG6aDs6U2lmkJ2AAfJyLVHj90aVoL/wLtCiQ=="},"keyId":1},"registrationId":2,"advSecretKey":"Mjv0WmgFF2YlttUAwsgyT2xrpxZ/1kWQWM7b2lxucV4=","processedHistoryMessages":[{"key":{"remoteJid":"18298431935@s.whatsapp.net","fromMe":true,"id":"4728A31106BF394E897F8D6CB24471E4"},"messageTimestamp":1752943351}],"nextPreKeyId":31,"firstUnuploadedPreKeyId":31,"accountSyncCounter":1,"accountSettings":{"unarchiveChats":false},"deviceId":"L4G_QEiHQyOCUGVu9TlP_g","phoneId":"7f1d43a7-0a9e-4e55-bfae-855659e572e1","identityId":{"type":"Buffer","data":"XaLd+63ePajD2wHCbw6lUpg51MY="},"registered":false,"backupToken":{"type":"Buffer","data":"HR2TNjgVgVQqAqvrJs5ZLKlAPYM="},"registration":{},"account":{"details":"CPr/154EEOaV78MGGAEgACgA","accountSignatureKey":"/CBbRiKhFq53QnlWEbxzyrld1AZc/CDIklJajY/X63Q=","accountSignature":"hRx8qxlkK6i/D3fWU0ooFFdSyKE45T6tpezbcOEIyzKx/r8rbUeE8blSphCFJz2eytqCB0EBkDp8vsiY3KgUDg==","deviceSignature":"UGzT9GKzD7eagLMSzBHCBpbDdnDn/+CGC7XnV6w7njSw2D5HBzBVZB64mGtwqvIZ1pB8H2YDjvF9eQBaAKUFhw=="},"me":{"id":"18298431935:80@s.whatsapp.net","name":"𝐌𝐑 𝐉𝐀𝐌𝐄𝐒 𝐁𝐑𝐘𝐀𝐍","lid":"237752595575012:80@lid"},"signalIdentities":[{"identifier":{"name":"18298431935:80@s.whatsapp.net","deviceId":0},"identifierKey":{"type":"Buffer","data":"BfwgW0YioRaud0J5VhG8c8q5XdQGXPwgyJJSWo2P1+t0"}}],"platform":"smba","routingInfo":{"type":"Buffer","data":"CAgIEg=="},"lastAccountSyncTimestamp":1752943347,"lastPropHash":"PWk5B","myAppStateKeyId":"AAAAAKQx"}
       "required": true
     },
     "OWNER_NUMBER": {
       "description": "Enter the number that is hosting the bot (e.g., 2349066528353)",
-      "value": "2349066528353",
+      "value":18298431935
       "required": true
     },
     "OWNER_NUMBERS": {
       "description": "Enter the bot owner's number (e.g., 2349066528353)",
-      "value": "2349066528353",
+      "value":18298431935
       "required": true
     },
     "PREFIX": {
@@ -39,7 +39,7 @@
     },
     "PUBLIC": {
       "description": "Set to true to make bot public",
-      "value": "true",
+      "value":false 
       "required": true
     },
     "UNAVAILABLE": {
